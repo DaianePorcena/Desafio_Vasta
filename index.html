@@ -15,10 +15,10 @@
         <nav class="menu">
             <img src="./assets/images/Vasta.png" alt="" class="menu__logo">
             <ul class="menu__list">
-                <li class="menu_item"><a href="#" class="menu__link">Sobre</a></li>
-                <li class="menu_item"><a href="#" class="menu__link">Portfólio</a></li>
-                <li class="menu_item"><a href="#" class="menu__link">Depoimentos</a></li>
-                <li class="menu_item"><a href="#" class="menu__link">Contato</a></li>
+                <li class="menu_item"><a href="#about" class="menu__link">Sobre</a></li>
+                <li class="menu_item"><a href="#portfolio" class="menu__link">Portfólio</a></li>
+                <li class="menu_item"><a href="#depositions" class="menu__link">Depoimentos</a></li>
+                <li class="menu_item"><a href="#contact" class="menu__link">Contato</a></li>
                 <li class="menu_item"><button class="menu__search"><img src="./assets/images/search-icon.png"
                             alt=""></button></li>
             </ul>
@@ -45,13 +45,13 @@
                         Atque impedit nisi suscipit amet ut quaerat deleniti praesentium cumque quae quod at quam,
                         incidunt aliquam ipsa sunt quis quos corporis est! Quo dolorem, necessitatibus consequuntur
                         veniam officiis maiores pariatur.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium delectus, aperiam provident, voluptatum ipsam ab autem porro error voluptatem saepe hic, sed ratione quibusdam est. Nesciunt autem adipisci doloremque quidem!
                     </p>
-                    <button class="btn__mais">SAIBA MAIS</button>
+                    <button class="btn__mais btn_blue">SAIBA MAIS</button>
                 </div>
 
             </div>
-            <div id="about__card">
-                <img src="./assets/images/IMAGEM 2.jpg" alt="Pessoas em reunião">
+            <div class="about__card">
                 <div class="about__info">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia asperiores, id rem qui esse
@@ -60,50 +60,108 @@
                         Atque impedit nisi suscipit amet ut quaerat deleniti praesentium cumque quae quod at quam,
                         incidunt aliquam ipsa sunt quis quos corporis est! Quo dolorem, necessitatibus consequuntur
                         veniam officiis maiores pariatur.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo eaque inventore voluptas soluta neque dolore quisquam perferendis exercitationem odio praesentium at repellendus, veritatis amet architecto! Adipisci ipsam eveniet a debitis?
                     </p>
                 </div>
+                <img src="./assets/images/IMAGEM 2.jpg" alt="Pessoas em reunião">
             </div>
         </section>
 
         <!-- Portfólio -->
 
         <section id="portfolio">
-            <h3>PORTFÓLIO</h3>
+            <h3 class="portfolio__subtitle">PORTFÓLIO</h3>
 
             <div class="portfolio__galery">
-                <div class="image-card"><img src="./assets/images/portfolio-imagem-1.jpg" alt=""></div>
-                <div class="image-card"><img src="./assets/images/portfolio-imagem-2.jpg" alt=""></div>
-                <div class="image-card"><img src="./assets/images/portfolio-imagem-3.jpg" alt=""></div>
-                <div class="image-card"><img src="./assets/images/portfolio-imagem-4.jpg" alt=""></div>
-                <div class="image-card"><img src="./assets/images/portfolio-imagem-5.jpg" alt=""></div>
-                <div class="image-card"><img src="./assets/images/portfolio-imagem-6.jpg" alt=""></div>
+                <div><img src="./assets/images/portfolio-imagem-1.jpg" alt=""></div>
+                <div><img src="./assets/images/portfolio-imagem-2.jpg" alt=""></div>
+                <div><img src="./assets/images/portfolio-imagem-3.jpg" alt=""></div>
+                <div><img src="./assets/images/portfolio-imagem-4.jpg" alt=""></div>
+                <div><img src="./assets/images/portfolio-imagem-5.jpg" alt=""></div>
+                <div><img src="./assets/images/portfolio-imagem-6.jpg" alt=""></div>
             </div>
 
-            <button class="btn__mais">CARREGAR MAIS PROJETOS</button>
+            <button class="btn__projects btn_blue">CARREGAR MAIS PROJETOS</button>
         </section>
 
         <!-- Depoimentos -->
 
         <section id="depositions">
+            <h3 class="depositions__subtitle">DEPOIMENTOS</h3>
+
+            <div class="depositions__container">
+                <div class="card-container"> 
+                    <button class="btn_slider"><</button>
+                    <div class="card-items">
+                        <div class="card-image">
+                            <div class="stars"></div>
+                            <div class="image"></div>
+                        </div>
+                        <div class="card-text">
+                            <h4>Lorem ipsum doilor</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita magnam adipisci harum. Asperiores animi consequuntur, vitae soluta..
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-items">
+                        <div class="card-image">
+                            <div class="stars"></div>
+                            <div class="image"></div>
+                        </div>
+                        <div class="card-text">
+                            <h4>Lorem ipsum doilor</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita magnam adipisci harum. Asperiores animi consequuntur, vitae soluta..
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-items">
+                        <div class="card-image">
+                            <div class="stars"></div>
+                            <div class="image"></div>
+                        </div>
+                        <div class="card-text">
+                            <h4>Lorem ipsum doilor</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita magnam adipisci harum. Asperiores animi consequuntur, vitae soluta..
+                            </p>
+                        </div>
+                    </div>
+                    <button class="btn_slider">></button>
+                </div>
+            </div>
+                
+        </section>
+
 
         </section>
 
         <!-- Contato -->
 
-        <section id="contato">
-            <form action="" id="contact">
+        <section id="contact">
+            <h3 class="contact__subtitle">CONTATO</h3>
+            <form class="contact__form">
                 <fieldset class="personal-data">
                     <input type="text" name="name" id="name" placeholder="Nome">
                     <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
                     <input type="email" name="e-mail" id="e-mail" placeholder="Email">
                 </fieldset>
                 <fieldset class="send-message">
-                    <textarea name="message" id="message" cols="50" rows="8" placeholder="Mensagem"></textarea>
-                    <input type="tel" id="phone" name="phone" pattern="\+\d{2}\s\d{9}">
+                    <textarea name="message" id="message" cols="50" rows="6" placeholder="Mensagem"></textarea>
+                    <div>
+                        <input type="tel" id="phone" name="phone" pattern="\+\d{2}\s\d{9}">
+
+                        <div class="send">
+                            <small>Todos os dados são guardados de forma segura, saiba mais <a href="#">aqui</a></small>
+                            <input type="button" value="ENVIAR" class="btn_green">
+                        </div>
+                    </div>
+                    
                 </fieldset>
 
-                <small>Todos os dados são guardados de forma segura, saiba mais <a href="#">aqui</a></small>
-                <input type="button" value="ENVIAR">
+              
+               
             </form>
         </section>
     </main>
