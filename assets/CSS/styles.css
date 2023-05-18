@@ -8,7 +8,7 @@
     --font-secondary-color: #676767;
     --font-tertiary-color: #1a1a1a;;
     --font-btn-color: white;
-    --bg-button-1: #18ca00;
+    --bg-button-1: #03B106;
     --bg-button-2: #517794;
 
 }
@@ -299,9 +299,11 @@ main{
 .send-message{
     margin-top: 15px;
 }
+
 .send-message textarea{
     border: 1px solid black;
     padding-left: 10px;
+    padding-top: 5px;
 }
 
 .send-message input{
@@ -331,6 +333,149 @@ main{
 }
 
 .send input{
-    border: 1px solid rgb(0, 112, 0);
+    border: 1px solid #007000;
     width: 290px;
+}
+
+.personal-data input::placeholder{
+    color: #111111;
+    font-size: 14px;
+}
+
+.send-message textarea::placeholder{
+    color: #111111;
+    font-size: 14px;
+}
+
+.send-message:nth-child(2) input::placeholder{
+    color: #111111;
+    font-size: 14px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #303030;
+    width: 100%;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sing-up{
+    border: 3px solid #fff;
+    border-right: 2px solid #fff;
+    color: #fff;
+    width: 540px;
+    height: 310px;
+    padding: 15px;
+    padding-right: 20px;
+}
+
+.sing-up h3{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.sing-up-input{
+    height: 45px;
+    margin-top: 25px;
+    display: flex;
+
+}
+
+.sing-up-input input{
+    width: 310px;
+    padding-left: 10px;
+    border: none;
+}
+
+.btn{
+    width: 187px;
+    border: 1px solid #007000;
+    font-weight: 500;
+}
+
+.footer-portfolio{
+    margin-top: 50px;
+}
+
+.link-container{
+    display: flex;
+    gap: 20px;
+}
+
+.link-card{
+    background-color: #3b3b3ba8;
+    height: 105px;
+    width: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.link-card img{
+    width: 100%;
+    height: 83%;
+    object-fit: cover;
+}
+
+.link{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+.informations{
+    color: #fff;
+    border: 3px solid #fff;
+    border-left: none;
+    width: 600px;
+    height: 310px;
+    padding: 15px 45px ;
+}
+
+.informations_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_informations h3{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.sobre h3{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.informations_content ul{
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+
+.informations_content ul li{
+    margin-bottom: 5px;
+}
+
+.informations_content li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.informations img{
+    display: block;
+    margin: 50px auto;
 }
