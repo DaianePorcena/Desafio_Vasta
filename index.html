@@ -22,6 +22,15 @@
                 <li class="menu_item"><button class="menu__search"><img src="./assets/images/search-icon.png"
                             alt=""></button></li>
             </ul>
+            <div class="menu__mobile">
+                <button class="menu__search"><img src="./assets/images/search-icon.png"></button>
+                <div>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+            </div>
         </nav>
         <div class="home">
             <h1 class="home__title">TÍTULO BANNER</h1>
@@ -49,11 +58,12 @@
                         provident, voluptatum ipsam ab autem porro error voluptatem saepe hic, sed ratione quibusdam
                         est. Nesciunt autem adipisci doloremque quidem!
                     </p>
-                    <button class="btn__mais btn_blue">SAIBA MAIS</button>
+                    <button class="btn__mais btn_blue">SAIBA MAIS </button>
                 </div>
-
+                <button class="show__more">Leia Mais<img width="15" height="15" src="./assets/images/setaDown.png" alt=""></button>
             </div>
-            <div class="about__card">
+            
+            <div class="about__card about__card_hidden about__card_visible">
                 <div class="about__info">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia asperiores, id rem qui esse
@@ -69,6 +79,8 @@
                 </div>
                 <img src="./assets/images/IMAGEM 2.jpg" alt="Pessoas em reunião">
             </div>
+
+            
         </section>
 
         <!-- Portfólio -->
@@ -76,7 +88,7 @@
         <section id="portfolio">
             <h3 class="portfolio__subtitle">PORTFÓLIO</h3>
 
-            <div class="portfolio__galery">
+            <div class="portfolio__galery ">
                 <div><img src="./assets/images/portfolio-imagem-1.jpg" alt=""></div>
                 <div><img src="./assets/images/portfolio-imagem-2.jpg" alt=""></div>
                 <div><img src="./assets/images/portfolio-imagem-3.jpg" alt=""></div>
@@ -85,7 +97,7 @@
                 <div><img src="./assets/images/portfolio-imagem-6.jpg" alt=""></div>
             </div>
 
-            <button class="btn__projects btn_blue">CARREGAR MAIS PROJETOS</button>
+            <button  id="btnLoadMore" class="btn__projects btn_blue">CARREGAR MAIS PROJETOS</button>
         </section>
 
         <!-- Depoimentos -->
@@ -93,46 +105,46 @@
             <h3 class="depositions__subtitle">DEPOIMENTOS</h3>
 
             <div class="depositions__container">
+                <button class="btn_slider"><</button>
                 <div class="card-container">
-                    <button class="btn_slider"><</button>
                     <div class="card-items">
-                                <div class="card-image">
-                                    <div class="stars"></div>
-                                    <div class="image"></div>
-                                </div>
-                                <div class="card-text">
-                                    <h4>Lorem ipsum doilor</h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita magnam
-                                        adipisci harum. Asperiores animi consequuntur, vitae soluta..
-                                    </p>
-                                </div>
+                        <div class="card-image">
+                            <div class="stars"></div>
+                            <div class="image"></div>
+                        </div>
+                        <div class="card-text">
+                            <h4>Lorem ipsum doilor</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita magnam
+                                adipisci harum. Asperiores animi consequuntur, vitae soluta..
+                            </p>
+                        </div>
                     </div>
                     <div class="card-items">
-                                <div class="card-image">
-                                    <div class="stars"></div>
-                                    <div class="image"></div>
-                                </div>
-                                <div class="card-text">
-                                    <h4>Lorem ipsum doilor</h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita magnam
-                                        adipisci harum. Asperiores animi consequuntur, vitae soluta..
-                                    </p>
-                                </div>
+                        <div class="card-image">
+                            <div class="stars"></div>
+                            <div class="image"></div>
+                        </div>
+                        <div class="card-text">
+                            <h4>Lorem ipsum doilor</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita magnam
+                                adipisci harum. Asperiores animi consequuntur, vitae soluta..
+                            </p>
+                        </div>
                     </div>
                     <div class="card-items">
-                                <div class="card-image">
-                                    <div class="stars"></div>
-                                    <div class="image"></div>
-                                </div>
-                                <div class="card-text">
-                                    <h4>Lorem ipsum doilor</h4>
-                                    <p>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita magnam
-                                        adipisci harum. Asperiores animi consequuntur, vitae soluta..
-                                    </p>
-                                </div>
+                        <div class="card-image">
+                            <div class="stars"></div>
+                            <div class="image"></div>
+                        </div>
+                        <div class="card-text">
+                            <h4>Lorem ipsum doilor</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita magnam
+                                adipisci harum. Asperiores animi consequuntur, vitae soluta..
+                            </p>
+                        </div>
                     </div>
                     <button class="btn_slider">></button>
                 </div>
@@ -170,10 +182,9 @@
     </main>
 
     <footer>
-        <div class="basic-informations">
 
-        </div>
         <div class="sing-up">
+            <img class="initial-logo" src="./assets/images/footer_logo_360x.png" alt="Logo da Vasta">
             <h3>SE INSCREVE PARA RECEBER NOSSO NEWSLATTER</h3>
 
             <div class="sing-up-input">
@@ -215,7 +226,7 @@
                         <li><a href="#contact">Contato</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="sobre">
                     <h3>SOBRE</h3>
                     <ul>
@@ -224,7 +235,7 @@
                     </ul>
                 </div>
             </div>
-            
+
 
             <img src="./assets/images/footer_logo_360x.png" alt="Logo da Vasta">
 
@@ -232,6 +243,8 @@
 
         </div>
     </footer>
+
+    <script src="./assets/script/scripts.js"></script>
 </body>
 
 </html>
